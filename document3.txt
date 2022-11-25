@@ -1,1 +1,21 @@
-룰루랄라룰루랄라감자 포테토여전히 배가고픕니당..
+#include <stdio.h>
+int main(void){
+	int ia[] = { 10,20,30,40,50 };
+	int *ip = ia;
+	// 배열을 배열로 사용하는 경우
+	for (int i = 0; i < 5; i++) 
+		printf("%d\t", ia[i]);
+	printf("\n");
+	// 포인터를 포인터로 사용하는 경우
+	for (int i = 0; i < 5; i++)  
+		printf("%d\t", *(ip + i));
+	printf("\n");
+	// 포인터를 배열처럼 사용하는 경우
+	for (int i = 0; i < 5; i++)  
+		printf("%d\t", ip[i]);
+	printf("\n");
+	// 배열을 포인터처럼 사용하는 경우
+	for (int i = 0; i < 5; i++)  
+		printf("%d\t", *(ia + i));
+	printf("\n");
+}
