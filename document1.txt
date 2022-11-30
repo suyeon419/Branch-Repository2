@@ -1,4 +1,4 @@
-def partition(l, r, nums):
+fdsfdsafdsfadsfdef partition(l, r, nums):
     # Last element will be the pivot and the first element the pointer
 pass
             # Swapping values smaller than the pivot to the front
